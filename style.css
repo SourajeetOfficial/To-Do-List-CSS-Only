@@ -1,0 +1,94 @@
+/* Center the entire page content */
+.page-wrapper {
+    width: 30%;
+    margin: 10vh auto; /* Centers horizontally */
+    border: 1px solid black;
+    padding: 10px;
+    background-image: url(background.jpg);
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    color: brown;
+    background-color: beige;
+    padding: 0;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* Button styling */
+.button-wrapper {
+    padding: 5px;    
+    margin-top: 5px;
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: rgb(220, 184, 129);
+}
+
+.button-wrapper button {
+    background-color: rgb(220, 184, 129);
+    border: 0;
+}
+
+.button-wrapper:hover {
+    box-shadow: 2px 2px 2px;
+    background-color: antiquewhite;
+}
+
+.button-wrapper:hover button {
+    background-color: antiquewhite;
+}
+
+/* Main container */
+.container {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+/* Header box for tasks */
+.box {
+    border: 2px solid black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 20px;
+   color: rgb(255, 115, 0);
+    padding: 5px;
+    background-color: rgba(255, 232, 56, 0.49);
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included within the width */
+}
+
+/* Task item layout */
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-item label {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Textarea styling */
+textarea {
+    flex-grow: 1;
+    resize: none;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+footer{
+    text-align: center;
+}
